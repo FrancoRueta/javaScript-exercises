@@ -1,4 +1,4 @@
-/*//String
+//String
 var nombre = "Carlitos";
 console.log(nombre);
 console.log(typeof nombre)
@@ -94,14 +94,6 @@ console.log(nombreApellido);
 
 var x = nombre+2+(20+5);
 console.log(x);
-
-*/
-
-
-
-
-
-
 
 
 let nombre;

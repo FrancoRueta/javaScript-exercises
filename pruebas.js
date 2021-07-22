@@ -1,6 +1,6 @@
 // isNan nos valida que el numero no sea NaN (not available number.)
 
-/*
+
 
 let minumero = "18x";
 
@@ -44,7 +44,7 @@ do{
 }while(contador <10)
 
 console.log("Fin ciclo.");
-*/
+
 
 
 
