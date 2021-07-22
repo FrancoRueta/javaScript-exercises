@@ -96,11 +96,11 @@ var x = nombre+2+(20+5);
 console.log(x);
 
 
-let nombre;
-nombre = "Juan";
+let nombre2;
+nombre2 = "Juan";
 console.log(nombre);
 
 
-const apellido = "Pereira";
-console.log(apellido);
-apellido = "asdasd";
+const apellido2 = "Pereira";
+console.log(apellido2);
+apellido2 = "asdasd";
