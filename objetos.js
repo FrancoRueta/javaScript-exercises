@@ -16,10 +16,19 @@ let persona = {
     nombre: "Eduardo",
     apellido: "Perez",
     edad: 28,
-    nombreCompleto: function(){
+    get nombreCompleto(){
         return this.nombre + ' ' + this.apellido;
+    },
+    idioma: 'ar',
+    get lang(){
+        return this.idioma.toUpperCase();
+    },
+    set lang(lang){
+        this.idioma = lang.toUpperCase();
     }
 }
+
+/*
 //Agregando una variable al objeto solo llamandola. (se ve peligroso.)
 persona.telefono = "11223344";
 
@@ -57,10 +66,14 @@ for (propiedad in persona){
 //con object values
 
 console.log(Object.values(persona));
-
+*/
 
 //JSON.stringify (el mejor)
 
-console.log(JSON.stringify(persona))
+console.log(JSON.stringify(persona));
+
+persona.lang = 'arg'
+
+console.log(persona.idioma);
 
 
