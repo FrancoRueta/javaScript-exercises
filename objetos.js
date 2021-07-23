@@ -79,7 +79,7 @@ console.log(Object.values(persona));
 
 //JSON.stringify (el mejor)
 
-
+/*
 //Funcion de tipo constructor de objetos.
 function Persona(nombre,apellido,edad,email){
     this.nombre = nombre;
@@ -127,4 +127,4 @@ let pers2 = {
 //con call se manda a llamar a los datos de otro objeto.
 console.log(pers1.nombreCompleto.call(pers2,"Dra. "));
 
-
+*/
