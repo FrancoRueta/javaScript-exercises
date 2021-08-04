@@ -1,0 +1,52 @@
+h1{
+    /* CSS HEX */
+    --independence: #555b6eff;
+    --morning-blue: #89b0aeff;
+    --powder-blue: #bee3dbff;
+    --cultured: #faf9f9ff;
+    --apricot: #ffd6baff;
+    
+    font-family: Verdana, Geneva, Tahoma;
+    color:var(--independence);
+    text-align: center;
+}
+            /*en css los comentarios son mas clasicos*/
+p{
+
+    --independence: #555b6eff;
+    --morning-blue: #89b0aeff;
+    --powder-blue: #bee3dbff;
+    --cultured: #faf9f9ff;
+    --apricot: #ffd6baff;
+
+
+    font-family: Verdana;
+    font-size: 26px;
+    color: var(--independence);
+    /*margin: 20px;    distancia entre cada 'caja'*/
+    /*border: 6px solid cadetblue; ancho y color del borde.*/
+    /*padding: 10px;   distancia entre texto y caja.*/
+    
+    
+    /*margin-top: 20px;margin-right: 480px;
+    margin-bottom: 15px;margin-left: 15px; este esta bien*/
+
+    /*margin: 20px 400px 15px 15px; mucho mejor.*/
+    
+    margin:auto 50px;
+    padding-bottom: 3px;
+    border: 2px solid var(--apricot);
+    text-align: center;
+}
+body{
+    --independence: #555b6eff;
+    --morning-blue: #89b0aeff;
+    --powder-blue: #bee3dbff;
+    --cultured: #faf9f9ff;
+    --apricot: #ffd6baff;
+
+
+    background-color: var(--cultured);
+}
+
+
