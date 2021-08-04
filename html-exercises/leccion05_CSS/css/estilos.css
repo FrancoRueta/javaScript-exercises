@@ -1,0 +1,66 @@
+h1{
+    --independence: #555b6eff;
+    --morning-blue: #89b0aeff;
+    --powder-blue: #bee3dbff;
+    --cultured: #faf9f9ff;
+    --apricot: #ffd6baff;
+    --light-apricot: rgb(247, 222, 205);
+    
+    font-family: Verdana, Geneva, Tahoma;
+    color:var(--independence);
+    text-align: center;
+}
+
+p{
+    --independence: #555b6eff;
+
+    font-family: Verdana;
+    font-size: 26px;
+    color: var(--independence);
+
+    margin:auto 50px;
+    padding-bottom: 3px;
+    border: 2px solid var(--apricot);
+    text-align: center;
+}
+body{
+    --cultured: #faf9f9ff;
+    --light-apricot: rgb(247, 222, 205);
+    background-color: var(--light-apricot);
+}
+
+hr{
+    color: saddlebrown;
+}
+
+table, th,td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: indianred;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: large;
+    padding: 2%;
+}
+table{
+    width: 100%;
+}
+caption{
+    color: indianred;
+    font-family: Trocchi;
+    font-size: 30px;
+    line-height: 70px;
+    
+}
+th{
+    color: #582f0e;
+    font-size: small;
+}
+tr:nth-child(even){
+    background-color: #f7bf8e;
+}
+tr:nth-child(odd){
+    background-color: #fcd6b5;
+}
+
+
