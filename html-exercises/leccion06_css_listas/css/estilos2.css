@@ -1,0 +1,21 @@
+ol{
+    list-style: none;
+    counter-reset: contador;
+    overflow: hidden;
+    background-color: blueviolet;
+
+}
+ol li{
+    counter-increment: contador;
+    float: left;
+}
+
+
+ol li::before{
+    content: 'Curso ' counter(contador)': ';
+    color: brown;
+}
+
+ol li::after{
+    content: '.'
+}

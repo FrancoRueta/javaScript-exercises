@@ -1,0 +1,45 @@
+h1{
+    color:#03045e;
+    font-family: Verdana;
+}
+
+
+ul{
+    list-style-type: none;
+    background-color: #00b4d8;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    
+}
+
+
+li{
+    float: left;
+}
+
+
+
+li a{
+    text-align: center;
+    padding: 12px;
+    display: block;
+    color: #023e8a;
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #0096c7;
+}
+
+
+body{
+    background-color: #caf0f8;
+}
+
+
+p{
+    font-family: Verdana;
+}
