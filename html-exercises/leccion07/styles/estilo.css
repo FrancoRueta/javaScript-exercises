@@ -1,0 +1,41 @@
+/*La sintaxis  asterisco corchetes sirve para aplicar el estilo a todos los elementos de la pagina.*/
+*{
+    font-family: Verdana;
+}
+
+
+body{
+    background-color: #fff1e6;
+}
+
+h1{
+    color: #6b705c;
+}
+h2{
+    color: #6b705c
+}
+p{
+    color: #a5a58d;
+}
+.tarjeta{
+    border: 6px solid #9c6644;
+    text-align: center;
+    margin: 2%;
+}
+
+.tarjeta2{
+    border: 6px solid #bd8562;
+    text-align: center;
+    margin: 2%;
+    background-color: #fff8f4;
+}
+
+.titulo{
+    padding: 12px;
+    margin: -8px;
+    display: block;
+    text-align: left;
+    background-color: #c78446;
+    color: #35180c;
+
+}
