@@ -20,17 +20,17 @@ p{
 .tarjeta{
     border: 6px solid #9c6644;
     text-align: center;
-    margin: 2%;
+    margin: 3%;
 }
 
 .tarjeta2{
     border: 6px solid #bd8562;
     text-align: center;
-    margin: 2%;
+    margin: 3%;
     background-color: #fff8f4;
 }
-
-.titulo{
+ /*el identificador es unico, a diferencia de la clase.*/
+#titulo{
     padding: 12px;
     margin: -8px;
     display: block;
@@ -38,4 +38,9 @@ p{
     background-color: #c78446;
     color: #35180c;
 
+}
+
+.creador{
+    color: rgb(96, 129, 38);
+    text-decoration: underline;
 }
